@@ -1,4 +1,4 @@
-package com.zheng;
+﻿package com.zheng;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -37,5 +37,7 @@ public class MainActivity extends Activity implements OnItemClickListener {
 		Toast.makeText(this, String.format("userName is %s， sex is %s，age is %d", user.getUserName(),
 				user.getSex(),user.getAge()), Toast.LENGTH_SHORT).show();
 	}
+
+
 
 }
